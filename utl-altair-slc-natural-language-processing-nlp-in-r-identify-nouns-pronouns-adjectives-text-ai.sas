@@ -180,651 +180,6 @@ run;quit;
                 |_|
 */
 
-*/ /**************************************************************************************************************************/
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /*|
-*/ /**************************************************************************************************************************/
-
-
-Altair SLC
-
-Obs        WORD                        GRAMMER
-
-  1    Pierre          Proper noun, singular
-  2    Vinken          Proper noun, singular
-  3    ,               Punctuation
-  4    61              Cardinal number
-  5    years           Noun, plural
-  6    old             Adjective
-  7    ,               Punctuation
-  8    will            Modal
-  9    join            Verb, base form
- 10    the             Determiner
- 11    board           Noun, singular or mass
- 12    as              Preposition or subordinating conjunction
- 13    a               Determiner
- 14    nonexecutive    Adjective
- 15    director        Noun, singular or mass
- 16    :               Punctuation
- 17    Nov.            Proper noun, singular
- 18    29              Cardinal number
- 19    .               Punctuation
- 20    Mr.             Proper noun, singular
- 21    Vinken          Proper noun, singular
- 22    ;               Punctuation
- 23    is              Verb, 3rd person singular present
- 24    chairman        Noun, singular or mass
- 25    of              Preposition or subordinating conjunction
- 26    Elsevier        Proper noun, singular
- 27    N.V.            Proper noun, singular
- 28    ,               Punctuation
- 29    the             Determiner
- 30    Dutch           Adjective
- 31    publishing      Noun, singular or mass
- 32    group           Noun, singular or mass
- 33    ?               Punctuation
-
-
-Altair SLC
-LIST: 9:53:03
-
-Altair SLC
-
-An annotator inheriting from classes
-  Simple_POS_Tag_Annotator Annotator
-with description
-  Computes POS tag annotations using the Apache OpenNLP Maxent Part of
-Speech tagger employing the default model for language 'en'
- id type     start end features
-  1 sentence     1  85 constituents=<<integer,19>>
-  2 sentence    87 155 constituents=<<integer,14>>
-  3 word         1   6 POS=NNP
-  4 word         8  13 POS=NNP
-  5 word        14  14 POS=,
-  6 word        16  17 POS=CD
-  7 word        19  23 POS=NNS
-  8 word        25  27 POS=JJ
-  9 word        28  28 POS=,
- 10 word        30  33 POS=MD
- 11 word        35  38 POS=VB
- 12 word        40  42 POS=DT
- 13 word        44  48 POS=NN
- 14 word        50  51 POS=IN
- 15 word        53  53 POS=DT
- 16 word        55  66 POS=JJ
- 17 word        68  75 POS=NN
- 18 word        76  76 POS=:
- 19 word        78  81 POS=NNP
- 20 word        83  84 POS=CD
- 21 word        85  85 POS=.
- 22 word        87  89 POS=NNP
- 23 word        91  96 POS=NNP
- 24 word        97  97 POS=:
- 25 word        99 100 POS=VBZ
- 26 word       102 109 POS=NN
- 27 word       111 112 POS=IN
- 28 word       114 121 POS=NNP
- 29 word       123 126 POS=NNP
- 30 word       127 127 POS=,
- 31 word       129 131 POS=DT
- 32 word       133 137 POS=JJ
- 33 word       139 148 POS=NN
- 34 word       150 154 POS=NN
- 35 word       155 155 POS=.
- id type     start end features
-  1 sentence     1  85 constituents=<<integer,19>>
-  2 sentence    87 155 constituents=<<integer,14>>
-  3 word         1   6 POS=NNP, POS_prob=0.9476405
-  4 word         8  13 POS=NNP, POS_prob=0.9692841
-  5 word        14  14 POS=,, POS_prob=0.9884445
-  6 word        16  17 POS=CD, POS_prob=0.9926943
- [1] "NNP" "NNP" ","   "CD"  "NNS" "JJ"  ","   "MD"  "VB"  "DT"  "NN"  "IN"  "DT"
-"JJ"  "NN"  ":"   "NNP" "CD"  "."   "NNP" "NNP" ":"   "VBZ" "NN"  "IN"  "NNP" "NNP" ","   "DT"  "JJ"  "NN"  "NN"  "."
-
-tags
-  ,   .   :  CD  DT  IN  JJ  MD  NN NNP NNS  VB VBZ
-  3   2   2   2   3   2   3   1   5   7   1   1   1
-
-'data.frame':      33 obs. of  1 variable:
- $ wrdGrm: chr  "Pierre/NNP" "Vinken/NNP" ",/," "61/CD" ...
-
-Altair SLC
-
-Obs        WORD                        GRAMMER
-
-  1    Pierre          Proper noun, singular
-  2    Vinken          Proper noun, singular
-  3    ,               Punctuation
-  4    61              Cardinal number
-  5    years           Noun, plural
-  6    old             Adjective
-  7    ,               Punctuation
-  8    will            Modal
-  9    join            Verb, base form
- 10    the             Determiner
- 11    board           Noun, singular or mass
- 12    as              Preposition or subordinating conjunction
- 13    a               Determiner
- 14    nonexecutive    Adjective
- 15    director        Noun, singular or mass
- 16    :               Punctuation
- 17    Nov.            Proper noun, singular
- 18    29              Cardinal number
- 19    .               Punctuation
- 20    Mr.             Proper noun, singular
- 21    Vinken          Proper noun, singular
- 22    ;               Punctuation
- 23    is              Verb, 3rd person singular present
- 24    chairman        Noun, singular or mass
- 25    of              Preposition or subordinating conjunction
- 26    Elsevier        Proper noun, singular
- 27    N.V.            Proper noun, singular
- 28    ,               Punctuation
- 29    the             Determiner
- 30    Dutch           Adjective
- 31    publishing      Noun, singular or mass
- 32    group           Noun, singular or mass
- 33    ?               Punctuation
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- WORKX.HAVE total obs=1 30JAN2026:10:24:43
-
- Obs                                              TXT
-
- 1     Pierre Vinken, 61 years old, will join the board ..................... N.V., the Dutch publishing group.
-
-
-
- EXAMPLE OUTPUT
- --------------
-
- WORK.WANT total obs=31
-
-      WORD           GRAMMER
-
-     Pierre          Proper noun, singular
-     Vinken          Proper noun, singular
-     ,               Punctuation
-     61              Cardinal number
-     years           Noun, plural
-     old             Adjective
-     ,               Punctuation
-     will            Modal
-     join            Verb, base form
-     the             Determiner
-     board           Noun, singular or mass
-     as              Preposition or subordinating conjunction
-     a               Determiner
-     nonexecutive    Adjective
-     director        Noun, singular or mass
-     Nov.            Proper noun, singular
-     29              Cardinal number
-     .               Punctuation
-     Mr.             Proper noun, singular
-     Vinken          Proper noun, singular
-     is              Verb, 3rd person singular present
-     chairman        Noun, singular or mass
-     of              Preposition or subordinating conjunction
-     Elsevier        Proper noun, singular
-     N.V.            Proper noun, singular
-     ,               Punctuation
-     the             Determiner
-     Dutch           Adjective
-     publishing      Noun, singular or mass
-     group           Noun, singular or mass
-     .               Punctuation
-
-PROCESS
-=======
-
-libname otw wpd "d:/wpswrkx";
-options set=RHOME "C:\Progra~1\R\R-4.5.2\bin\r";
-proc r;
-export r=txt data=workx.txt;
-submit;
-library(rJava)
-library(stringr)
-library(NLP)
-library(openNLP)
-s <- as.String(txt$TXT)
-sent_token_annotator <- Maxent_Sent_Token_Annotator()
-word_token_annotator <- Maxent_Word_Token_Annotator()
-a2 <- annotate(s, list(sent_token_annotator, word_token_annotator))
-pos_tag_annotator <- Maxent_POS_Tag_Annotator()
-pos_tag_annotator
-a3 <- annotate(s, pos_tag_annotator, a2)
-a3
-head(annotate(s, Maxent_POS_Tag_Annotator(probs = TRUE), a2))
-a3w <- subset(a3, type == "word")
-tags <- sapply(a3w$features, `[[`, "POS")
-tags
-table(tags)
-want<-as.data.frame(sprintf("%s/%s", s[a3w], tags))
-colnames(want)<-"wrdGrm"
-str(want)
-endsubmit;
-import r=want data=otw.want;
-run;
-
-libname workx sas7bdat "d:/wpswrkx";
-proc print data=workx.want;
-run;
-
- proc format ;
-  value $tok2grammer
-     "CC  "="Coordinating conjunction                "
-     "CD  "="Cardinal number                         "
-     "DT  "="Determiner                              "
-     "EX  "="Existential there                       "
-     "FW  "="Foreign word                            "
-     "IN  "="Preposition or subordinating conjunction"
-     "JJ  "="Adjective                               "
-     "JJR "="Adjective, comparative                  "
-     "JJS "="Adjective, superlative                  "
-     "LS  "="List item marker                        "
-     "MD  "="Modal                                   "
-     "NN  "="Noun, singular or mass                  "
-     "NNS "="Noun, plural                            "
-     "NNP "="Proper noun, singular                   "
-     "NNPS"="Proper noun, plural                     "
-     "PDT "="Predeterminer                           "
-     "POS "="Possessive ending                       "
-     "PRP "="Personal pronoun                        "
-     "PRP$"="Possessive pronoun                      "
-     "RB  "="Adverb                                  "
-     "RBR "="Adverb, comparative                     "
-     "RBS "="Adverb, superlative                     "
-     "RP  "="Particle                                "
-     "SYM "="Symbol                                  "
-     "UH  "="Interjection                            "
-     "VB  "="Verb, base form                         "
-     "VBD "="Verb, past tense                        "
-     "VBG "="Verb , gerund or present participle     "
-     "VBN "="Verb, past participle                   "
-     "VBP "="Verb, non­3rd person singular present   "
-     "VBZ "="Verb, 3rd person singular present       "
-     "WDT "="Wh­determiner                           "
-     "WP  "="Wh­pronoun                              "
-     "WP$ "="Possessive wh­pronoun                   "
-     "WRB "="Wh­adverb                               "
-     other="Symbol/Punctuation                       "
- ;run;quit;
-
-proc format cntlout=x;
- select $tok2grammer;
-run;quit;
-
-
-libname otw wpd "d:/wpswrkx";
-data workx.tags;
-  set otw.want;
-  word=scan(wrdGrm,1,'/');
-  grm=scan(wrdGrm,2,'/');
-  grammer=put(strip(grm),$tok2grammer.);
-  if word in (  ','
-             , '.'
-             , '?'
-             , '!'
-             , ';'
-             , ':') then do; grm='PNC';grammer="Punctuation";end;
-  keep word grammer;
-run;quit;
-
-proc print data=workx.tags;
-run;quit;
-
-/*           _               _
-  ___  _   _| |_ _ __  _   _| |_
- / _ \| | | | __| `_ \| | | | __|
-| (_) | |_| | |_| |_) | |_| | |_
- \___/ \__,_|\__| .__/ \__,_|\__|
-                |_|
-*/
-
 /**************************************************************************************************************************/
 /*  Altair SLC                                                                                                            */
 /*                                                                                                                        */
@@ -864,13 +219,11 @@ run;quit;
 /*   32    group           Noun, singular or mass                                                                         */
 /*   33    ?               Punctuation                                                                                    */
 /*                                                                                                                        */
-/*  Altair SLC                                                                                                            */
-/*                                                                                                                        */
-/*    An annotator inheriting from classes                                                                                */
-/*    Simple_POS_Tag_Annotator Annotator with description                                                                 */
-/*    Computes POS tag annotations using the Apache OpenNLP Maxent                                                        */
-/*    Part of Speech tagger employing the default model for language 'en'                                                 */
-/*                                                                                                                        */
+/*  An annotator inheriting from classes                                                                                  */
+/*    Simple_POS_Tag_Annotator Annotator                                                                                  */
+/*    with description                                                                                                    */
+/*    Computes POS tag annotations using the Apache OpenNLP Maxent Part of                                                */
+/*  Speech tagger employing the default model for language 'en'                                                           */
 /*   id type     start end features                                                                                       */
 /*    1 sentence     1  85 constituents=<<integer,19>>                                                                    */
 /*    2 sentence    87 155 constituents=<<integer,14>>                                                                    */
@@ -916,15 +269,54 @@ run;quit;
 /*    5 word        14  14 POS=,, POS_prob=0.9884445                                                                      */
 /*    6 word        16  17 POS=CD, POS_prob=0.9926943                                                                     */
 /*                                                                                                                        */
-/*   [1] "NNP" "NNP" ","   "CD"  "NNS" "JJ"  ","   "MD"  "VB"  "DT"  "NN"  "IN"                                           */
-/*  "DT"  "JJ"  "NN"  ":"   "NNP" "CD"  "."   "NNP" "NNP" ":"   "VBZ" "NN"  "IN"                                          */
-/*  "NNP" "NNP" ","   "DT"  "JJ"  "NN"  "NN"  "."                                                                         */
+/*   [1] "NNP" "NNP" ","   "CD"  "NNS" "JJ"  ","   "MD"  "VB"  "DT"  "NN"  "IN"  "DT"                                     */
+/*  "JJ"  "NN"  ":"   "NNP" "CD"  "."   "NNP" "NNP" ":"   "VBZ" "NN"  "IN"  "NNP"                                         */
+/*  "NNP" ","   "DT"  "JJ"  "NN"  "NN"  "."                                                                               */
 /*                                                                                                                        */
 /*  tags                                                                                                                  */
 /*    ,   .   :  CD  DT  IN  JJ  MD  NN NNP NNS  VB VBZ                                                                   */
 /*    3   2   2   2   3   2   3   1   5   7   1   1   1                                                                   */
+/*                                                                                                                        */
 /*  'data.frame':      33 obs. of  1 variable:                                                                            */
 /*   $ wrdGrm: chr  "Pierre/NNP" "Vinken/NNP" ",/," "61/CD" ...                                                           */
+/*                                                                                                                        */
+/*  Altair SLC                                                                                                            */
+/*                                                                                                                        */
+/*  Obs        WORD                        GRAMMER                                                                        */
+/*                                                                                                                        */
+/*    1    Pierre          Proper noun, singular                                                                          */
+/*    2    Vinken          Proper noun, singular                                                                          */
+/*    3    ,               Punctuation                                                                                    */
+/*    4    61              Cardinal number                                                                                */
+/*    5    years           Noun, plural                                                                                   */
+/*    6    old             Adjective                                                                                      */
+/*    7    ,               Punctuation                                                                                    */
+/*    8    will            Modal                                                                                          */
+/*    9    join            Verb, base form                                                                                */
+/*   10    the             Determiner                                                                                     */
+/*   11    board           Noun, singular or mass                                                                         */
+/*   12    as              Preposition or subordinating conjunction                                                       */
+/*   13    a               Determiner                                                                                     */
+/*   14    nonexecutive    Adjective                                                                                      */
+/*   15    director        Noun, singular or mass                                                                         */
+/*   16    :               Punctuation                                                                                    */
+/*   17    Nov.            Proper noun, singular                                                                          */
+/*   18    29              Cardinal number                                                                                */
+/*   19    .               Punctuation                                                                                    */
+/*   20    Mr.             Proper noun, singular                                                                          */
+/*   21    Vinken          Proper noun, singular                                                                          */
+/*   22    ;               Punctuation                                                                                    */
+/*   23    is              Verb, 3rd person singular present                                                              */
+/*   24    chairman        Noun, singular or mass                                                                         */
+/*   25    of              Preposition or subordinating conjunction                                                       */
+/*   26    Elsevier        Proper noun, singular                                                                          */
+/*   27    N.V.            Proper noun, singular                                                                          */
+/*   28    ,               Punctuation                                                                                    */
+/*   29    the             Determiner                                                                                     */
+/*   30    Dutch           Adjective                                                                                      */
+/*   31    publishing      Noun, singular or mass                                                                         */
+/*   32    group           Noun, singular or mass                                                                         */
+/*   33    ?               Punctuation                                                                                    */
 /**************************************************************************************************************************/
 
 /*
